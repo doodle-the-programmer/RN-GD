@@ -1,0 +1,31 @@
+{
+    "geode": "3.0.0",
+    "gd": {
+        "win": "2.206",
+        "android": "2.206",
+        "mac": "2.206",
+        "ios": "2.206"
+    },
+    "id": "doodle.rngd",
+    "name": "RN-GD",
+    "version": "v1.0.0",
+    "developer": "doodle-the-programmer",
+    "description": "A Geode mod that changes the gamemode very frequently while playing levels",
+    "repository": "https://github.com/doodle-the-programmer/RN-GD",
+    "settings": {
+        "switch-interval": {
+            "name": "Switch Interval",
+            "description": "How often to switch gamemodes (in seconds)",
+            "type": "float",
+            "default": 2.0,
+            "min": 0.5,
+            "max": 10.0
+        },
+        "enabled": {
+            "name": "Enabled",
+            "description": "Enable/disable random gamemode switching",
+            "type": "bool",
+            "default": true
+        }
+    }
+}
